@@ -1,0 +1,14 @@
+1 - O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Ao iniciar um repositório o software git irá rodar um código interno que
+o permite armazenar informações sobre os arquivos que compõe o repositório.
+Comandos como git log, git diff e git checkout só são possíveis de serem
+executados graças aos dados armazenados pelo git ao criar o repositório.
+
+2 - Em que se difere a área de preparação do diretório de trabalho e do repositório?
+ Qual valor você acha que ela oferece?
+
+ É um local intermediário onde é possível preparar os commits a serem feitos.
+ O repositório é composto do histórico de versões efetivamente salvas.
+ A área de preparação oferece uma oportunidade de visualizar e validar
+ o commit antes deste ser realizado. É um rascunho.
