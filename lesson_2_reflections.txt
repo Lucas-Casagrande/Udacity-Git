@@ -12,3 +12,35 @@ executados graças aos dados armazenados pelo git ao criar o repositório.
  O repositório é composto do histórico de versões efetivamente salvas.
  A área de preparação oferece uma oportunidade de visualizar e validar
  o commit antes deste ser realizado. É um rascunho.
+
+ 3 - Como você pode usar a área de preparação para garantir que tenha um commit
+ por alteração lógica?
+
+ Ao comparar o trabalho realizado com o último commit e com o arquivo antes das
+ modificações. Isto permite identificar as mudanças realizadas no código
+ e revisar o planejamento de commits.
+
+ 4 - Quais são algumas das situações em que branches seriam úteis para manter
+  seu histórico organizado? Como branches ajudariam?
+
+  Teste de novas funcionalidades ou alterações mais significativas no código,
+  trabalho em paralelo de mais de uma alternativa/ filosofia de trabalho.
+
+  5 - Como os diagramas ajudam a visualizar a estrutura de branches?
+  através dos diagramas é possível facilmente identificar a relação existente
+  entre os branches, quais commits cada branch pode acessar e identificar
+  padrões lógicos.
+
+  6 - Qual é o resultado da mesclagem de dois branches? Por que
+  o representamos no diagrama dessa forma?
+
+  O resultado é a união das duas versões mais recentes dos branches mesclados.
+  O commit pai de ambos os branchs é utilizado como parâmetro para descobrir
+  o que foi adicionado e o que foi retirado.
+
+  7 - Quais são os prós e contras da mesclagem automática do Git
+  v. sempre fazer mesclagens manualmente?
+
+  A mesclagen manual garante maior segurança e representatividade do código
+  salvo, pode evitar sérios problemas de compatibildiade e outros bugs. A
+  desvantagem é o maior tempo e esforço requerido pelo método.
